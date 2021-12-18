@@ -1,0 +1,55 @@
+/*========= レイアウトのためのCSS ===============*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Rampart One", cursive;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 6vw;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h1.h1-p {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper-foot {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+
+/*footerのcss*/
+footer {
+  background: rgb(37, 25, 10);
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p {
+  color: rgb(247, 242, 236);
+  font-size: 0.875rem;
+}
