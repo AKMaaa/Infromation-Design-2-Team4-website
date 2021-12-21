@@ -73,7 +73,7 @@ footer p {
   max-width: 1000px;
   height: 410px;
   border-width: 1px;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .09);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.09);
   border-style: dashed;
 }
 .m-box p {
@@ -86,26 +86,26 @@ footer p {
 
 .m-box img {
   position: absolute;
-  width:600px;
+  width: 600px;
   padding-top: -90px;
   padding-left: 50px;
 }
 
 /*header*/
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-.logo{
+.logo {
   width: 150px;
   margin-top: 6px;
 }
 
-.main-nav{
+.main-nav {
   display: flex;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -113,52 +113,52 @@ img{
   list-style: none;
 }
 
-.main-nav li{
+.main-nav li {
   margin-left: 36px;
 }
 
-.main-nav a{
+.main-nav a {
   color: #432;
 }
 
-.main-nav a:hover{
+.main-nav a:hover {
   color: rgb(77, 107, 97);
 }
 
-.page-header{
+.page-header {
   display: flex;
   justify-content: space-between;
 }
 
-.hwrapper{
+.hwrapper {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 auto;
 }
 
 /*にぶんかつ*/
-article{
+article {
   padding-top: 50px;
   width: 80%;
 }
 
-aside{
-  width:20%;
+aside {
+  width: 20%;
 }
 
-.contents{
+.contents {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
-.wrapper-c{
+.wrapper-c {
   max-width: 1700px;
   margin: 0 auto;
   padding: 0 4%;
 }
 
-#bar{
+#bar {
   position: absolute;
   text-align: right;
   width: 340px;
@@ -178,7 +178,13 @@ a.btn_06 {
   width: 100%;
   height: 50px;
   box-sizing: border-box;
-  background: repeating-linear-gradient(45deg, #ffffff, #ffffff 3px, #e7e7e7 3px, #e7e7e7 30px);
+  background: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #ffffff 3px,
+    #e7e7e7 3px,
+    #e7e7e7 30px
+  );
   color: #333;
   font-size: 14px;
   letter-spacing: 0.1em;
@@ -201,66 +207,67 @@ a.btn_06 span {
   top: -6px;
   left: -6px;
   transition-duration: 0.2s;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 a.btn_06:hover span {
   left: -1px;
   top: -1px;
 }
 
-#support-text{
+#support-text {
   position: absolute;
   top: -50px;
 }
 
-#video-text{
+#video-text {
   margin-top: 50px;
   margin-bottom: 20px;
 }
 
-.video-1{
+.video-1 {
   border: 0.7px solid;
   width: 1005px;
 }
 
-.video-content{
+.video-content {
   padding-left: 9px;
 }
 
-.content-subtitle{
+.content-subtitle {
   font-size: 1.375rem;
   padding: 0 8px 8px;
   border-bottom: 2px rgb(26, 20, 7) solid;
   font-weight: normal;
 }
 
-aside{
+aside {
   padding-top: 53px;
 }
 
-aside p{
+aside p {
   padding: 12px 10px;
 }
 
-.sub-content{
+.sub-content {
   margin-bottom: 60px;
   list-style: none;
 }
 
-.sub-content li{
+.sub-content li {
   border-bottom: 1px #ddd solid;
 }
 
-.sub-content a{
+.sub-content a {
   color: #222831;
   padding: 10px;
   display: block;
 }
 
-.sub-content a:hover{
+.sub-content a:hover {
   color: coral;
 }
 
-.head-head{
+.head-head {
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -268,13 +275,66 @@ aside p{
   width: 1920px;
 }
 
-.kotei-aside{
+.kotei-aside {
   position: fixed;
   top: 0px;
   padding-top: 150px;
   z-index: 0;
 }
 
-header{
+header {
   height: 80px;
+}
+
+#poster-text{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+.poster-p {
+  display: flex;
+  max-width: 1000px;
+  gap: 10px 50px;
+}
+/*ポスター全体のブロック*/
+.poster-content {
+  padding-left: 9px;
+}
+
+.poster-chi img {
+  border: 0.5px solid;
+  width: 450px;
+}
+
+.poster-chi {
+  margin: 15px;
+}
+
+.poster-chi p {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*info*/
+
+.info-content{
+  padding-left: 9px;
+}
+
+#info-text{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#canvas-container{
+  width: 100%;
+  z-index: 500;
+}
+
+#defaultCanvas0{
+  border: 1px dotted;
 }

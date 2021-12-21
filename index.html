@@ -23,6 +23,12 @@
       href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <!--========レイアウトを制御するCSSを読み込み========-->
     <!--slickライブラリー-->
     <link
@@ -33,6 +39,8 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="scripts/info.js"></script>
   </head>
 
   <body>
@@ -54,14 +62,14 @@
     </div>
 
     <div class="wrapper">
-      <h1 >Semotant</h1>
+      <h1>Semotant</h1>
       <ul class="slider">
         <li class="slider-item slider-item01"></li>
         <li class="slider-item slider-item02"></li>
         <li class="slider-item slider-item03"></li>
       </ul>
     </div>
-    <div class="contents wrapper-c"  id="u">
+    <div class="contents wrapper-c" id="u">
       <article id="article">
         <div class="m-box">
           <h2 id="support-text">Support</h2>
@@ -71,7 +79,9 @@
           <section>
             <a href="#" class="btn_06"><span>支援する</span></a>
           </section>
+          <span id="u2"></span>
         </div>
+        <!--video-->
         <div class="video-content">
           <h2 id="video-text">Video</h2>
           <video
@@ -80,6 +90,25 @@
             class="video-1"
           ></video>
         </div>
+        <!--poster-->
+        <div class="poster-content">
+          <h2 id="poster-text">Poster</h2>
+          <div class="poster-p">
+            <div class="poster-chi">
+              <img src="images/aiueo.svg" alt="ポスター1" />
+              <p>人間工学に基づいた設計で腰への負担を減らします</p>
+            </div>
+            <div class="poster-chi">
+              <img src="images/poster2.svg" alt="ポスター2" />
+              <p>背もたれの角度は自由に設定できます</p>
+            </div>
+          </div>
+        </div>
+        <!--Information Graphics-->
+        <div class="info-content">
+          <h2 id="info-text">Information Graphics</h2>
+          <div id="canvas"></div>
+        </div>
       </article>
       <!--サイドバー-->
       <aside>
@@ -87,9 +116,9 @@
           <h3 class="content-subtitle">Category</h3>
           <ul class="sub-content">
             <li><a href="#u">Support</a></li>
-            <li><a href="#video-text">Video</a></li>
-            <li><a href="#">Poster</a></li>
-            <li><a href="#">Information Graphics</a></li>
+            <li><a href="#u2">Video</a></li>
+            <li><a href="#poster-text">Poster</a></li>
+            <li><a href="#info-text">Information Graphics</a></li>
           </ul>
         </div>
       </aside>
