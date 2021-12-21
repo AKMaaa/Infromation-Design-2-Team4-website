@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <title>group4-情報デザインⅡ-クラウドファンディングwebサイト</title>
     <meta name="description" content="group4の前田祥が制作しました" />
-
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
       rel="stylesheet"
     />
-    F
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,16 +36,65 @@
   </head>
 
   <body>
+    <div class="head-head">
+      <header class="page-header hwrapper">
+        <h1>
+          <a href="index.html"
+            ><img class="logo" src="images/logo.svg" alt="ロゴ画像"
+          /></a>
+        </h1>
+
+        <nav>
+          <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Gallery</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
     <div class="wrapper">
-      <h1>Product name</h1>
+      <h1 >Semotant</h1>
       <ul class="slider">
         <li class="slider-item slider-item01"></li>
         <li class="slider-item slider-item02"></li>
         <li class="slider-item slider-item03"></li>
       </ul>
     </div>
+    <div class="contents wrapper-c"  id="u">
+      <article id="article">
+        <div class="m-box">
+          <h2 id="support-text">Support</h2>
+          <img src="images/宣伝写真_no01.png" alt="商品画像" id="p-image" />
+          <p id="set-amount" class="child">目標金額 : X,XXX,XXX,XXX円</p>
+          <img src="images/bar.png" alt="進捗バー" id="bar" />
+          <section>
+            <a href="#" class="btn_06"><span>支援する</span></a>
+          </section>
+        </div>
+        <div class="video-content">
+          <h2 id="video-text">Video</h2>
+          <video
+            src="video/Semotant-ver1.0_Trim.mp4"
+            controls
+            class="video-1"
+          ></video>
+        </div>
+      </article>
+      <!--サイドバー-->
+      <aside>
+        <div class="kotei-aside">
+          <h3 class="content-subtitle">Category</h3>
+          <ul class="sub-content">
+            <li><a href="#u">Support</a></li>
+            <li><a href="#video-text">Video</a></li>
+            <li><a href="#">Poster</a></li>
+            <li><a href="#">Information Graphics</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
 
-    <p>あああああああああああああああああああああああああ</p>
     <!--js ライブラリー-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
