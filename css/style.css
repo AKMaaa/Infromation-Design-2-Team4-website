@@ -1,4 +1,10 @@
 /*========= レイアウトのためのCSS ===============*/
+
+/**/
+body {
+  background-color: #f4f0e6;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -6,7 +12,7 @@ ul {
 }
 
 a {
-  color: #fff;
+  color: rgb(179, 0, 0);
 }
 
 a:hover,
@@ -14,7 +20,7 @@ a:active {
   text-decoration: none;
 }
 
-h1 {
+.wrapper h1 {
   font-family: "Rampart One", cursive;
   position: absolute;
   z-index: 2;
@@ -25,7 +31,7 @@ h1 {
   font-size: 6vw;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 h1.h1-p {
@@ -44,7 +50,7 @@ h1.h1-p {
 
 /*footerのcss*/
 footer {
-  background: rgb(37, 25, 10);
+  background: #222831;
   text-align: center;
   padding: 26px 0;
 }
@@ -52,4 +58,223 @@ footer {
 footer p {
   color: rgb(247, 242, 236);
   font-size: 0.875rem;
+}
+
+/*box*/
+.m-box {
+  position: relative;
+  padding: 0em 0em 7em 0em;
+  margin: 6em auto 0.8em 0.9em;
+  font-weight: bold;
+  color: #333; /*文字色*/
+  background: #f4f0e6;
+  border: solid 3px #393e46; /*線*/
+  border-radius: 20px; /*角の丸み*/
+  max-width: 1000px;
+  height: 410px;
+  border-width: 1px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .09);
+  border-style: dashed;
+}
+.m-box p {
+  margin: 0;
+  font-size: 25px;
+  padding: 45px 50px 10px 100px;
+  text-align: right;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.m-box img {
+  position: absolute;
+  width:600px;
+  padding-top: -90px;
+  padding-left: 50px;
+}
+
+/*header*/
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.logo{
+  width: 150px;
+  margin-top: 6px;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li{
+  margin-left: 36px;
+}
+
+.main-nav a{
+  color: #432;
+}
+
+.main-nav a:hover{
+  color: rgb(77, 107, 97);
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hwrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/*にぶんかつ*/
+article{
+  padding-top: 50px;
+  width: 80%;
+}
+
+aside{
+  width:20%;
+}
+
+.contents{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.wrapper-c{
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#bar{
+  position: absolute;
+  text-align: right;
+  width: 340px;
+  right: 48px;
+  bottom: 280px;
+}
+/*************btn**************/
+
+section {
+  max-width: 300px;
+  margin: 0;
+}
+a.btn_06 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background: repeating-linear-gradient(45deg, #ffffff, #ffffff 3px, #e7e7e7 3px, #e7e7e7 30px);
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  position: relative;
+  left: 660px;
+  top: 70px;
+  border-width: 0.2px;
+}
+a.btn_06 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  transition-duration: 0.2s;
+}
+a.btn_06:hover span {
+  left: -1px;
+  top: -1px;
+}
+
+#support-text{
+  position: absolute;
+  top: -50px;
+}
+
+#video-text{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.video-1{
+  border: 0.7px solid;
+  width: 1005px;
+}
+
+.video-content{
+  padding-left: 9px;
+}
+
+.content-subtitle{
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px rgb(26, 20, 7) solid;
+  font-weight: normal;
+}
+
+aside{
+  padding-top: 53px;
+}
+
+aside p{
+  padding: 12px 10px;
+}
+
+.sub-content{
+  margin-bottom: 60px;
+  list-style: none;
+}
+
+.sub-content li{
+  border-bottom: 1px #ddd solid;
+}
+
+.sub-content a{
+  color: #222831;
+  padding: 10px;
+  display: block;
+}
+
+.sub-content a:hover{
+  color: coral;
+}
+
+.head-head{
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #f4f0e6;
+  width: 1920px;
+}
+
+.kotei-aside{
+  position: fixed;
+  top: 0px;
+  padding-top: 150px;
+  z-index: 0;
+}
+
+header{
+  height: 80px;
 }
