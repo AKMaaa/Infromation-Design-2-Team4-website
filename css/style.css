@@ -338,3 +338,64 @@ header {
 #defaultCanvas0{
   border: 1px dotted;
 }
+
+/*ga*/
+.ga-home-content{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.ga-home-content p{
+  font: size 1.125rem;
+  margin: 10px 0 42px;
+}
+
+.page-title{
+  
+  font-family: "Rampart One", cursive;
+  color: rgb(255, 243, 234);
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+.big-bg{
+  background-size: cover;
+  background-position:center top;
+}
+
+#ga-home{
+  background-image: url(../im-ga/home1.png);
+  height: 800px;
+}
+
+#home .page-title{
+  text-transform: none;
+}
+
+.grid{
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6%;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.big-box{
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.big-box img{
+  height: 99%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
