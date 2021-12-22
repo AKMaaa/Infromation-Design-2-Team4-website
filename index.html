@@ -1,171 +1,170 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <title>group4-情報デザインⅡ-クラウドファンディングwebサイト</title>
-    <meta name="description" content="group4の前田祥が制作しました" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Rampart+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <!--========レイアウトを制御するCSSを読み込み========-->
-    <!--slickライブラリー-->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/slider.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
-    <script src="scripts/info.js"></script>
-  </head>
 
-  <body>
-    <div class="head-head">
-      <header class="page-header hwrapper">
-        <h1>
-          <a href="index.html"
-            ><img class="logo" src="images/logo.svg" alt="ロゴ画像"
-          /></a>
-        </h1>
+<head>
+  <meta charset="utf-8" />
+  <title>group4-情報デザインⅡ-クラウドファンディングwebサイト</title>
+  <meta name="description" content="group4の前田祥が制作しました" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Rampart+One&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100&display=swap"
+    rel="stylesheet" />
+  <!--========レイアウトを制御するCSSを読み込み========-->
+  <!--slickライブラリー-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/slider.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="scripts/info.js"></script>
+</head>
 
-        <nav>
-          <ul class="main-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ga.html">Gallery</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+<body>
+  <div class="head-head">
+    <header class="page-header hwrapper">
+      <h1>
+        <a href="index.html"><img class="logo" src="images/logo.svg" alt="ロゴ画像" /></a>
+      </h1>
 
-    <div class="wrapper">
-      <h1>Semotant</h1>
-      <ul class="slider">
-        <li class="slider-item slider-item01"></li>
-        <li class="slider-item slider-item02"></li>
-        <li class="slider-item slider-item03"></li>
-      </ul>
-    </div>
-    <div class="contents wrapper-c" id="u">
-      <article id="article">
-        <div class="m-box">
-          <h2 id="support-text">Support</h2>
-          <img src="images/宣伝写真_no01.png" alt="商品画像" id="p-image" />
-          <p id="set-amount" class="child">目標金額 : X,XXX,XXX,XXX円</p>
-          <img src="images/bar.png" alt="進捗バー" id="bar" />
-          <section>
-            <a href="#" class="btn_06"><span>支援する</span></a>
-          </section>
-          <span id="u2"></span>
-        </div>
-        <!--video-->
-        <div class="video-content">
-          <h2 id="video-text">Video</h2>
-          <video
-            src="video/Semotant-ver2.0Final.mp4"
-            controls
-            class="video-1"
-          ></video>
-        </div>
-        <!--poster-->
-        <div class="poster-content">
-          <h2 id="poster-text">Poster</h2>
-          <div class="poster-p">
-            <div class="poster-chi">
-              <img src="images/aiueo.svg" alt="ポスター1" />
-              <p>人間工学に基づいた設計で腰への負担を減らします</p>
-            </div>
-            <div class="poster-chi">
-              <img src="images/nya.svg" alt="ポスター2" />
-              <p>背もたれの角度は自由に設定できます</p>
-            </div>
-          </div>
-          <div class="poster-p">
-            <div class="poster-chi">
-              <img src="images/poster3.svg" alt="ポスター1" width="450px"/>
-              <p>快適を持ち歩こう</p>
-            </div>
-            <div class="poster-chi">
-              <img src="images/aiueokaki.svg" alt="ポスター2" />
-              <p>無制限のリクライニング</p>
-            </div>
-          </div>
-          <div class="poster-p">
-            <div class="poster-chi">
-              <img src="images/24.jpg" alt="ポスター1" width="450px"/>
-              <p>最適な椅子の角度</p>
-            </div>
-            <div class="poster-chi">
-              <img src="images/kami.jpg" alt="ポスター2" />
-              <p>SEMOTANT</p>
-            </div>
-          </div>
-          <div class="poster-p">
-            <div class="poster-chi">
-              <img src="images/isuisu.svg" alt="ポスター1" width="450px"/>
-              <p>最高の座り心地</p>
-            </div>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ga.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <div class="wrapper">
+    <h1>Semotant</h1>
+    <ul class="slider">
+      <li class="slider-item slider-item01"></li>
+      <li class="slider-item slider-item02"></li>
+      <li class="slider-item slider-item03"></li>
+    </ul>
+  </div>
+  <div class="contents wrapper-c" id="u">
+    <article id="article">
+      <div class="story-content">
+        <h2 id="story-text">Story</h2>
+        <div id="concept-text">
+          <h3 id="C-h3">Concept</h3>
+          <div id="c-p">
+            <p>健康の中でも現代人の問題としてたびたび話題に上がる<span id="sisei">姿勢</span>に着目。</p><br>
+            <p>背もたれの無い椅子は姿勢悪化に拍車をかけます。</p><br>
+            <p>そこで、どこにでも持ち運べ快適に座ることのできる背もたれの開発を行いました。</p><br>
+            <p>支援して頂いたお金は、①角度を調節する機構の開発費 ②カバーのデザインの開発費、にそれぞれ充てます。</p><br>
           </div>
         </div>
-        <!--Information Graphics-->
-        <div class="info-content">
-          <h2 id="info-text">Information Graphics</h2>
-          <div id="canvas"></div>
+        <p></p>
+      </div>
+      <!--支援-->
+      <div class="m-box">
+        <h2 id="support-text">Support</h2>
+        <img src="images/宣伝写真_no01.png" alt="商品画像" id="p-image" />
+        <p id="set-amount" class="child">目標金額 : X,XXX,XXX,XXX円</p>
+        <img src="images/bar.png" alt="進捗バー" id="bar" />
+        <p id="sienkin">支援金額 : X,XXX,XXX ￥</p>
+        <section>
+          <a href="#" class="btn_06"><span>支援する</span></a>
+        </section>
+        <span id="u2"></span>
+      </div>
+      <!--video-->
+      <div class="video-content">
+        <h2 id="video-text">Video</h2>
+        <video src="video/Semotant-ver2.0Final.mp4" controls class="video-1"></video>
+      </div>
+      <!--poster-->
+      <div class="poster-content">
+        <h2 id="poster-text">Poster</h2>
+        <div class="poster-p">
+          <div class="poster-chi">
+            <img src="images/aiueo.svg" alt="ポスター1" />
+            <p>人間工学に基づいた設計で腰への負担を減らします</p>
+          </div>
+          <div class="poster-chi">
+            <img src="images/nya.svg" alt="ポスター2" />
+            <p>背もたれの角度は自由に設定できます</p>
+          </div>
         </div>
-      </article>
-      <!--サイドバー-->
-      <aside>
-        <div class="kotei-aside">
-          <h3 class="content-subtitle">Category</h3>
-          <ul class="sub-content">
-            <li><a href="#u">Support</a></li>
-            <li><a href="#u2">Video</a></li>
-            <li><a href="#poster-text">Poster</a></li>
-            <li><a href="#info-text">Information Graphics</a></li>
-          </ul>
+        <div class="poster-p">
+          <div class="poster-chi">
+            <img src="images/poster3.svg" alt="ポスター1" width="450px" />
+            <p>快適を持ち歩こう</p>
+          </div>
+          <div class="poster-chi">
+            <img src="images/aiueokaki.svg" alt="ポスター2" />
+            <p>無制限のリクライニング</p>
+          </div>
+        </div>
+        <div class="poster-p">
+          <div class="poster-chi">
+            <img src="images/24.jpg" alt="ポスター1" width="450px" />
+            <p>最適な椅子の角度</p>
+          </div>
+          <div class="poster-chi">
+            <img src="images/kami.jpg" alt="ポスター2" />
+            <p>SEMOTANT</p>
+          </div>
+        </div>
+        <div class="poster-p">
+          <div class="poster-chi">
+            <img src="images/sitting_ver3.0.svg" alt="ポスター1" width="450px" />
+            <p>最高の座り心地</p>
+          </div>
+          <div class="poster-chi">
+            <img src="images/kaban.png" alt="ポスター1" width="300px" />
+            <p>いつでも、どこでも。</p>
+          </div>
+        </div>
+      </div>
+      <!--Information Graphics-->
+      <div class="info-content">
+        <h2 id="info-text">Information Graphics</h2>
+        <div id="canvas"></div>
+      </div>
+    </article>
+    <!--サイドバー-->
+    <aside>
+      <div class="kotei-aside">
+        <h3 class="content-subtitle">Category</h3>
+        <ul class="sub-content">
+          <li><a href="#story-text">Story</a></li>
+          <li><a href="#u">Support</a></li>
+          <li><a href="#u2">Video</a></li>
+          <li><a href="#poster-text">Poster</a></li>
+          <li><a href="#info-text">Information Graphics</a></li>
+        </ul>
         <img src="images/Semotant-return.svg" alt="">
-        </div>
-      </aside>
-    </div>
+      </div>
+    </aside>
+  </div>
 
-    <!--js ライブラリー-->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="scripts/script.js"></script>
-    <script src="scripts/slider.js"></script>
-  </body>
+  <!--js ライブラリー-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/slider.js"></script>
+</body>
 
-  <footer>
-    <div class="wrapper-foot">
-      <p>
-        <small> &copy; 2021 Information design II Group 4 </small>
-      </p>
-    </div>
-  </footer>
+<footer>
+  <div class="wrapper-foot">
+    <p>
+      <small> &copy; 2021 Information design II Group 4 </small>
+    </p>
+  </div>
+</footer>
+
 </html>

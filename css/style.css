@@ -191,7 +191,7 @@ a.btn_06 {
   text-decoration: none;
   position: relative;
   left: 660px;
-  top: 70px;
+  top: 25px;
   border-width: 0.2px;
 }
 a.btn_06 span {
@@ -207,7 +207,7 @@ a.btn_06 span {
   top: -6px;
   left: -6px;
   transition-duration: 0.2s;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 a.btn_06:hover span {
   left: -1px;
@@ -286,12 +286,10 @@ header {
   height: 80px;
 }
 
-#poster-text{
+#poster-text {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-
-
 
 .poster-p {
   display: flex;
@@ -321,58 +319,57 @@ header {
 
 /*info*/
 
-.info-content{
+.info-content {
   padding-left: 9px;
 }
 
-#info-text{
+#info-text {
   margin-top: 50px;
   margin-bottom: 20px;
 }
 
-#canvas-container{
+#canvas-container {
   width: 100%;
   z-index: 500;
 }
 
-#defaultCanvas0{
+#defaultCanvas0 {
   border: 1px dotted;
 }
 
 /*ga*/
-.ga-home-content{
+.ga-home-content {
   text-align: center;
   margin-top: 10%;
 }
 
-.ga-home-content p{
+.ga-home-content p {
   font: size 1.125rem;
   margin: 10px 0 42px;
 }
 
-.page-title{
-  
+.page-title {
   font-family: "Rampart One", cursive;
   color: rgb(255, 243, 234);
   font-size: 5rem;
   font-weight: normal;
 }
 
-.big-bg{
+.big-bg {
   background-size: cover;
-  background-position:center top;
+  background-position: center top;
 }
 
-#ga-home{
+#ga-home {
   background-image: url(../im-ga/home1.jpg);
   height: 800px;
 }
 
-#home .page-title{
+#home .page-title {
   text-transform: none;
 }
 
-.grid{
+.grid {
   display: grid;
   gap: 26px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -382,20 +379,40 @@ header {
   margin-right: 20px;
 }
 
-.big-box{
+.big-box {
   grid-column: 1/3;
   grid-row: 1/3;
 }
 
-.big-box img{
+.big-box img {
   height: 99%;
   width: 100%;
   object-fit: cover;
 }
 
+/*story*/
+.story-content {
+  padding-left: 15px;
+}
 
+#sienkin {
+  margin-right: 38px;
+}
 
+#concept-text{
+  margin-left: 10px;
+  margin-top: 15px;
+}
 
+#C-h3{
+  margin-bottom: 4px;
+}
 
+#sisei{
+  font-size: 30px;
+  color: rgb(241, 158, 158);
+}
 
-
+#c-p{
+  margin: 1px;
+}
